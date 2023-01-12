@@ -1301,6 +1301,7 @@ body {
 
 .burger__in[type="checkbox"]:checked ~ .burger__label .line--1 {
   transform: rotate(45deg);
+  background-color: #ff0000;
 }
 
 .burger__in[type="checkbox"]:checked ~ .burger__label .line--2{
@@ -1309,6 +1310,7 @@ body {
 
 .burger__in[type="checkbox"]:checked ~ .burger__label .line--3{
   transform: rotate(-45deg);
+  background-color: #ff0000;
 }
 .burger__in[type="checkbox"]:checked ~ .burger__label {
   top: 25px;
